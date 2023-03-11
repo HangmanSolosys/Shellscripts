@@ -18,7 +18,7 @@ if [ $number -ge $memo ]; then
 	
 	echo -e "Problem found the provided number is either hitting the limit or surpassing it.\nThe current memory is $memo"
 
-	echo " Problem found the provided number is either hitting the limit or surpassing it...$memo " > /var/log/memoryfile.txt && mail -s "CHECK MEMORY" ivanignatov9624@gmail.com < /var/log/memoryfile.txt
+	echo " Problem found the provided number is either hitting the limit or surpassing it...$memo " > /var/log/memoryfile.txt && mail -s "CHECK MEMORY" #removethecomment and add the email address of the admin here < /var/log/memoryfile.txt
 	
 	echo
 
