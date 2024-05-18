@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Set user and email information
-user_email="ivan.ignatov2igi@gmail.com"
+user_email="emailaddress@email.com"
 user_name="Ivan"
 
 # Creating the SSH key
